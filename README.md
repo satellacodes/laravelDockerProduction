@@ -6,9 +6,9 @@
   <br/>
 
   <p align="center">
-    <a href="https://github.com/cifertech/nrfbox"><img src="https://img.shields.io/static/v1?label=satellacodes&message=satellacodes&color=00bcd4&logo=github"/></a>
-    <a href="https://github.com/cifertech/nrfbox"><img src="https://img.shields.io/github/stars/satellacodes/laravelDockerProduction?style=social"/></a>
-    <a href="https://github.com/cifertech/nrfbox"><img src="https://img.shields.io/github/forks/satelladoes/laravelDockerProduction?style=social"/></a>
+    <a href="https://github.com/satellacodes/laravelDockerProduction"><img src="https://img.shields.io/static/v1?label=satellacodes&message=satellacodes&color=00bcd4&logo=github"/></a>
+    <a href="https://github.com/satellacodes/laravelDockerProduction"><img src="https://img.shields.io/github/stars/satellacodes/laravelDockerProduction?style=social"/></a>
+    <a href="https://github.com/satellacodes/laravelDockerProduction"><img src="https://img.shields.io/github/forks/satelladoes/laravelDockerProduction?style=social"/></a>
     <img src="https://img.shields.io/github/downloads/satellacodes/laravelDockerProduction/total?color=00bcd4&label=downloads&logo=github"/>
     <img src="https://img.shields.io/badge/license-MIT-00bcd4"/>
   </p>
