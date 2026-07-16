@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  php:
+    build: .
+
+    container_name: app2-php
+
+    restart: unless-stopped
+
+    working_dir: /var/www
+
+    volumes:
+      - ./src:/var/www
+
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+
+      - ./php/opcache.ini:/usr/local/etc/php/conf.d/opcache.ini
+
+    networks:
+      - backend
+
+  nginx:
+    image: nginx:1.28-alpine
+
+    container_name: app2-nginx
+
+    restart: unless-stopped
+
+    volumes:
+      - ./src:/var/www:ro
+
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+
+    networks:
+      - backend
+
+    depends_on:
+      - php
+
+networks:
+  backend:
+    external: true

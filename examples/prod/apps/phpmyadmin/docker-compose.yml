@@ -1,0 +1,20 @@
+services:
+  phpmyadmin:
+    image: phpmyadmin:latest
+
+    container_name: phpmyadmin
+
+    restart: unless-stopped
+
+    environment:
+      PMA_HOST: mariadb
+      PMA_PORT: 3306
+
+      UPLOAD_LIMIT: 128M
+
+    networks:
+      - backend
+
+networks:
+  backend:
+    external: true
