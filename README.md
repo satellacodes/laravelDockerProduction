@@ -42,16 +42,12 @@ Production ready Laravel deployment using
 
 ## Architecture
 
-Internet
-│
-Cloudflare
-│
-Nginx
-│
-Laravel (PHP-FPM)
-│
-├── MariaDB
-└── Redis
+- Internet
+- Cloudflare
+- Nginx
+- Laravel (PHP-FPM)
+  - MariaDB
+  - Redis
 
 ---
 
@@ -72,8 +68,8 @@ Laravel (PHP-FPM)
 | [08 MariaDB](docs/08-mariadb.md)                    | Database             |
 | [09 phpMyAdmin](docs/09-phpmyadmin.md)              | Database GUI         |
 | [10 Deployment](docs/10-deployment.md)              | Deploy application   |
-| [11 Backup](docs/11-backup.md)                      | Backup & Restore     |
-| [12 Troubleshooting](docs/12-troubleshooting.md)    | Common Issues        |
+| [11 security](docs/11-security.md)                  | security & validate  |
+| [12 monitoring](docs/12-monitoring.md)              | monitoring           |
 
 ---
 
